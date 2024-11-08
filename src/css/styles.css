@@ -1,0 +1,30 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+/* #region Utils styles */
+@import url('./utils/variables.css');
+@import url('./utils/animations.css');
+/* #endregion */
+
+/* #region Base styles */
+@import url('./base/global.css');
+@import url('./base/resets.css');
+@import url('./base/container.css');
+/* #endregion */
+
+/* #region Components styles */
+@import url('./components/logo.css');
+@import url('./components/button.css');
+@import url('./components/modal.css');
+@import url('./components/menu.css');
+@import url('./components/swiper.css');
+@import url('./components/to-top.css');
+
+/* #endregion */
+
+/* #region Partials styles */
+@import url('./partials/header.css');
+@import url('./partials/hero.css');
+@import url('./partials/about.css');
+
+@import url('./partials/footer.css');
+/* #endregion */
