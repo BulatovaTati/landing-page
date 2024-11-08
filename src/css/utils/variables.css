@@ -5,6 +5,20 @@
   /* #endregion */
 
   /* #region Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue-dark: #06071b;
+  --color-gray: #939eac;
+
+  --color-purple-light: #1a89fd;
+  --color-purple-dark: #7d55ff;
+  --color-gray-light: #262626;
+  --color-gray-medium: #d9d9d9;
+  --color-dark: #191918;
+
+  --color-lightest-gray: #f8f7f7;
+  --color-light-blue: #07081c;
+  --color-blue-light: #fcfcfc;
 
   /* #endregion */
 }

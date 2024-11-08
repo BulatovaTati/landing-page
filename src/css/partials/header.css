@@ -1,0 +1,41 @@
+.header {
+}
+
+.header-container {
+  margin-top: 20px;
+  padding: 14px 20px;
+  background: linear-gradient(
+    99deg,
+    rgba(0, 197, 235, 0.3) 0%,
+    rgba(181, 68, 254, 0.3) 100%
+  );
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current {
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-list {
+  margin-top: 120px;
+}
+
+.nav-item:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
