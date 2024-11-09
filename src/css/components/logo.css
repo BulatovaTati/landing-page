@@ -1,5 +1,6 @@
 .logo {
-  font-size: 28px;
+  font-size: 19px;
   color: #fff;
-  z-index: 3;
+  z-index: 10;
+  text-wrap: nowrap;
 }

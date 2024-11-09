@@ -1,0 +1,73 @@
+.hero {
+  background-color: #07081c;
+}
+
+.hero-container {
+  width: 100%;
+  padding: 175px 20px 127px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/img/hero/mob/phone.png');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .hero-container {
+    background-image: url('/img/hero/mob/phone-2x.png');
+  }
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-white);
+  margin-bottom: 12px;
+}
+
+.hero-img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.hero-text {
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.hero-btn {
+  font-family: inherit;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  min-width: 200px;
+  height: 42px;
+  color: var(--color-white);
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+
+@media screen and (min-width: 768px) {
+  /* .hero-container {
+    background-image: none;
+    padding: 142px 32px 143px;
+  }
+
+  .hero-container::after {
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    right: 50px;
+    width: 336px;
+    height: 382px;
+    background-image: url('/img/hero/tab/phone.png');
+  } */
+  /* @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .hero-container {
+      background-image: url('/img/hero/tab/phone-2x.png');
+    }
+  } */
+}
