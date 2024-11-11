@@ -18,6 +18,8 @@
 @import url('./components/menu.css');
 @import url('./components/swiper.css');
 @import url('./components/to-top.css');
+@import url('./components/socials.css');
+@import url('./components/skills.css');
 
 /* #endregion */
 
@@ -25,6 +27,5 @@
 @import url('./partials/header.css');
 @import url('./partials/hero.css');
 @import url('./partials/about.css');
-
 @import url('./partials/footer.css');
 /* #endregion */
