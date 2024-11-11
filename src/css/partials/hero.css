@@ -11,6 +11,13 @@
   background-position: center;
   background-size: cover;
   background-image: url('/img/hero/mob/phone.png');
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -26,6 +33,13 @@
   font-size: 24px;
   color: var(--color-white);
   text-align: center;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 .hero-img {
@@ -33,6 +47,13 @@
   margin: 0 auto;
   margin-bottom: 12px;
   border-radius: 50%;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 .hero-text {
@@ -40,6 +61,13 @@
   font-weight: 700;
   color: var(--color-white);
   text-align: center;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 .hero-btn {
@@ -53,6 +81,13 @@
   height: 42px;
   color: var(--color-white);
   background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 @media screen and (min-width: 768px) {
@@ -98,6 +133,7 @@
 
   .hero-title {
     text-align: left;
+    display: inline-block;
   }
 
   .hero-text {
@@ -105,10 +141,6 @@
     margin-bottom: 20px;
     text-align: left;
   }
-}
-
-.container {
-  outline: 1px solid orangered;
 }
 
 @media screen and (min-width: 1280px) {

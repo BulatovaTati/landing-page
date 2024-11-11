@@ -19,6 +19,10 @@
   --color-lightest-gray: #f8f7f7;
   --color-light-blue: #07081c;
   --color-blue-light: #fcfcfc;
-
+  --gradient-color: linear-gradient(
+    99deg,
+    rgba(0, 197, 235, 0.3),
+    rgba(181, 68, 254, 0.3)
+  );
   /* #endregion */
 }

@@ -44,6 +44,14 @@
   height: 16px;
   z-index: 10;
   cursor: pointer;
+  padding: 25px 0;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
 }
 
 @media screen and (min-width: 768px) {
