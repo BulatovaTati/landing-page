@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Movies Source',
-    image: '/img/projects/movies.png',
+    image: 'https://bulatovatati.github.io/img/projects/movies.png',
     alt: 'Movies Source',
     description:
       'A movie information platform that pulls data from a public API for movie details.',
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: 'Yacht Jet',
-    image: '/img/projects/jet.jpg',
+    image: 'https://bulatovatati.github.io/img/projects/jet.jpg',
     alt: 'Yacht Jet',
     description:
       'A luxury yacht rental platform showcasing various yachts available for rent.',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'SIMPLY CHOCOLATE',
-    image: '/img/projects/chocolate.png',
+    image: 'https://bulatovatati.github.io/img/projects/chocolate.png',
     alt: 'SIMPLY-CHOCOLATE',
     description:
       'A responsive website for a chocolate brand, featuring smooth scroll for navigation.',
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: 'Green Harvest',
-    image: '/img/projects/veges.jpg',
+    image: 'https://bulatovatati.github.io/img/projects/veges.jpg',
     alt: 'Green Harvest',
     description:
       'A project focused on promoting healthy eating with engaging content and resources.',
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: 'Food Delivery',
-    image: '/img/projects/food.png',
+    image: 'https://bulatovatati.github.io/img/projects/food.png',
     alt: 'Food Delivery',
     description:
       'A food delivery app that allows users to browse menus, place orders, and track deliveries.',
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: 'Barber Shop',
-    image: '/img/projects/barber.jpg',
+    image: 'https://bulatovatati.github.io/img/projects/barber.jpg',
     alt: 'Barber Shop',
     description:
       'A stylish and functional website for a barbershop, featuring a booking system.',
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: 'Ice Cream',
-    image: '/img/projects/ice.jpg',
+    image: 'https://bulatovatati.github.io/img/projects/ice.jpg',
     alt: 'Ice Cream',
     description:
       'A visually appealing website showcasing a range of ice cream products.',
@@ -64,7 +64,7 @@ const projects = [
   },
   {
     title: 'Donats',
-    image: '/img/projects/donuts.jpg',
+    image: 'https://bulatovatati.github.io/img/projects/donuts.jpg',
     alt: 'Donats',
     description: 'A fun and interactive website for ordering donuts online.',
     codeLink: 'https://github.com/BulatovaTati/Donats',
