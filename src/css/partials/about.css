@@ -58,7 +58,7 @@
   margin-bottom: 40px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1.43;
   text-align: center;
   border: 1px solid transparent;
   border-image: linear-gradient(
@@ -96,4 +96,63 @@
       rgba(181, 68, 254, 0.3)
     )
     1;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding-top: 91px;
+    padding-bottom: 47px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .about-socials-title,
+  .about-soft-title,
+  .about-hard-title {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .about-img {
+    margin-left: -32px;
+    width: 467px;
+    max-height: 592px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+
+  .about-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -91px;
+    left: 0;
+    background-image: url('/img/about/tab/blur2.png');
+    background-position: right 0 top 0;
+    background-repeat: no-repeat;
+    background-size: 522px 841px;
+  }
+
+  .about-container::after {
+    bottom: -47px;
+    left: 0;
+    height: auto;
+    background-image: url('/img/about/tab/blur1.png');
+
+    background-position: left 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: 768px 935px;
+  }
 }

@@ -8,18 +8,42 @@
       privilege of leading teams in building innovative websites, successfully
       managing projects from concept to completion on three occasions.
     </p>
-    <img class="about-img" src="/img/about/mob/person.png" alt="person" />
-    <p class="about-text">
-      In my previous role, I directed a team of approximately 100 individuals,
-      providing mentorship and fostering collaboration to enhance productivity.
-      My expertise encompasses managing complex neural network datasets,
-      conducting client-side audits, and ensuring the quality of system
-      implementations.
-    </p>
-    <h3 class="about-socials-title">Social networks</h3>
-    <load src="/components/socials.html" />
-    <h3 class="about-soft-title">Soft Skills:</h3>
-    <load src="/components/soft.html" />
+    <div class="about-wrapper">
+      <picture>
+        <source
+          srcset="/img/about/mob/person.png 1x, /img/about/mob/person-2x.png 2x"
+          media="(max-width: 767.98px)"
+          type="image/png"
+        />
+        <source
+          srcset="/img/about/tab/person.png 1x, /img/about/tab/person-2x.png 2x"
+          media="(min-width:
+          768px)"
+          type="image/png"
+        />
+        <source
+          srcset="/img/about/des/person.png 1x, /img/about/des/person-2x.png 2x"
+          media="(min-width: 1280px)"
+          type="image/png"
+        />
+        <img class="about-img" src="/img/about/mob/person.png" alt="person" />
+      </picture>
+      <div class="about-text-container">
+        <p class="about-text">
+          In my previous role, I directed a team of approximately 100
+          individuals, providing mentorship and fostering collaboration to
+          enhance productivity. My expertise encompasses managing complex neural
+          network datasets, conducting client-side audits, and ensuring the
+          quality of system implementations.
+        </p>
+
+        <h3 class="about-socials-title">Social networks:</h3>
+        <load src="/components/socials.html" />
+
+        <h3 class="about-soft-title">Soft Skills:</h3>
+        <load src="/components/soft.html" />
+      </div>
+    </div>
     <h3 class="about-hard-title">Hard Skills:</h3>
     <load src="/components/hard.html" />
   </div>
