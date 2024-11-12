@@ -90,6 +90,11 @@
     1;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #000;
+}
+
 @media screen and (min-width: 768px) {
   .hero-container {
     background-image: none;
