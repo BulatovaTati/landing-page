@@ -4,11 +4,26 @@
   background-color: #06071b;
 }
 
+.projects-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
 .projects-list {
   margin-bottom: 40px;
 }
 
 .projects-title {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 20px;
@@ -155,9 +170,10 @@
   .projects-item:not(:last-child) {
     margin-bottom: 0;
   }
+
   .projects-img {
     width: 100%;
-    height: 200px;
+    height: 180px;
   }
 }
 

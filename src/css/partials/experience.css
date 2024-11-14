@@ -1,0 +1,158 @@
+.experience {
+  padding: 40px 0;
+}
+
+.experience-container {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.experience-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url('/img/experience/mob/blur1.png');
+  background-position: right 0 top 0;
+  background-repeat: no-repeat;
+  background-size: 320px 916px;
+}
+
+.experience-title {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.experience-position {
+  max-width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.experience-company,
+.experience-date {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  text-align: center;
+  color: #000;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.experience-list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.experience-item {
+  padding: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  text-align: center;
+  color: #000;
+  border-radius: 8px;
+  background: linear-gradient(
+    99deg,
+    rgba(181, 68, 254, 0.2) 20%,
+    rgba(0, 197, 235, 0.2) 80%
+  );
+}
+
+.experience-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .experience-container::after {
+    background-image: url('/img/experience/tab/blur1.png'),
+      url('/img/experience/tab/blur2.png');
+    background-position: right 0 top 0, left 0 top 0;
+    background-repeat: no-repeat;
+    background-size: 648px 915px, 499px 896px;
+  }
+
+  .experience-duties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .experience-item {
+    width: calc((100% - 32px) / 2);
+    padding: 15px;
+  }
+
+  .experience-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .experience-container::after {
+    background-image: url('/img/experience/des/blur1.png'),
+      url('/img/experience/des/blur2.png');
+    background-position: right 0 top 0, left 0 top 0;
+    background-repeat: no-repeat;
+    background-size: 940px 923px, 738px 1080px;
+  }
+
+  .experience-duties {
+    gap: 40px;
+  }
+
+  .experience-item {
+    width: calc((100% - 80px) / 3);
+  }
+}
