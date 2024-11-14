@@ -1,0 +1,151 @@
+.education {
+  padding: 40px 0;
+  background-color: #06071b;
+}
+
+.education-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.education-wrapper {
+  margin-bottom: 40px;
+}
+
+.education-title,
+.certifications-title {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.certifications-title {
+  max-width: 175px;
+}
+
+.education-item,
+.certifications-item {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.education-item:not(:last-child),
+.certifications-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.education-item {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.education-text {
+  font-weight: 700;
+}
+
+.education-text:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.certifications-item {
+  padding: 16px;
+  border-radius: 15px;
+  background: linear-gradient(
+    318deg,
+    rgba(0, 197, 235, 0.5) 0%,
+    rgba(181, 68, 254, 0.5) 100%
+  );
+}
+
+.certifications-text {
+  font-weight: 700;
+  margin-bottom: 8px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.certifications-img {
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .certifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .certifications-item {
+    width: calc((100% - 32px) / 2);
+    padding: 15px;
+  }
+
+  .certifications-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .education-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .education-wrapper,
+  .certifications-wrapper {
+    width: 60%;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+        99deg,
+        rgba(0, 197, 235, 0.3),
+        rgba(181, 68, 254, 0.3)
+      )
+      1;
+  }
+
+  .education-wrapper {
+    margin-bottom: 0;
+    width: 40%;
+  }
+
+  .certifications-text {
+    font-size: 18px;
+  }
+}
