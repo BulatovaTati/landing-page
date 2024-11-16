@@ -15,12 +15,14 @@
     1;
 }
 
-.education-wrapper {
+.education-wrapper,
+.education-list {
   margin-bottom: 40px;
 }
 
 .education-title,
-.certifications-title {
+.certifications-title,
+.languages-title {
   max-width: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -48,19 +50,22 @@
 }
 
 .education-item,
-.certifications-item {
-  font-weight: 500;
+.certifications-item,
+.languages-item {
+  font-weight: 700;
   font-size: 14px;
   text-align: center;
   color: #fff;
 }
 
 .education-item:not(:last-child),
-.certifications-item:not(:last-child) {
+.certifications-item:not(:last-child),
+.languages-item:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.education-item {
+.education-item,
+.languages-item {
   border: 1px solid transparent;
   border-image: linear-gradient(
       99deg,
