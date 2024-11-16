@@ -71,15 +71,14 @@
 }
 
 .hero-btn {
-  font-family: inherit;
   display: block;
   margin: 0 auto;
-  border: none;
+  max-width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  color: var(--color-white);
   outline: none;
   border-radius: 5px;
-  min-width: 200px;
-  height: 42px;
-  color: var(--color-white);
   background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
   border: 1px solid transparent;
   border-image: linear-gradient(
@@ -88,6 +87,7 @@
       rgba(181, 68, 254, 0.3)
     )
     1;
+  transition: color var(--time) var(--cubic);
 }
 
 .hero-btn:hover,
@@ -143,7 +143,7 @@
   }
 
   .hero-text {
-    max-width: 500px;
+    max-width: 425px;
     margin-bottom: 20px;
     text-align: left;
   }

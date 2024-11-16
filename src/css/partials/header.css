@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .nav-item:nth-child(n + 5):nth-child(-n + 7) {
+  .nav-item:nth-child(n + 5):nth-child(-n + 5) {
     display: none;
   }
 }
