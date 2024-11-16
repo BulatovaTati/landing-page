@@ -154,6 +154,10 @@
     padding: 143px 16px 158px;
   }
 
+  .hero-text {
+    max-width: 500px;
+  }
+
   .hero-container::after {
     background-image: url('/img/hero/des/phone.png'),
       url('/img/hero/des/dekor.png'), url('/img/hero/tab/blur.png');
