@@ -43,7 +43,7 @@ function smoothScrolling() {
   const { height: cardHeight } = allProjects[0].getBoundingClientRect();
 
   window.scrollBy({
-    top: cardHeight * 2,
+    top: cardHeight,
     behavior: 'smooth',
   });
 }
