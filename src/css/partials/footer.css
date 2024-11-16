@@ -1,0 +1,107 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  padding: 40px 0 22px;
+  background-color: #06071b;
+}
+
+.footer-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+.footer-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/footer/mob/blur1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 599px;
+}
+
+.footer-title {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .footer-container::after {
+    background-image: url('/img/footer/tab/blur1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px 952px;
+  }
+
+  .footer-text {
+    margin-bottom: 30px;
+  }
+
+  .footer-socials {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-text {
+    margin-bottom: 40px;
+  }
+
+  .footer-container::after {
+    background-image: url('/img/footer/des/blur1.png'),
+      url('/img/footer/des/blur2.png');
+    background-position: right, left;
+    background-repeat: no-repeat;
+    background-size: 786px 728px, 451px 290px;
+  }
+}

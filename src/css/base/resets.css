@@ -36,3 +36,7 @@ img {
 ::-webkit-scrollbar {
   display: none;
 }
+
+address {
+  font-style: normal;
+}
