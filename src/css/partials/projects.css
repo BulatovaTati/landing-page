@@ -1,46 +1,18 @@
 .projects {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #06071b;
+  background-color: var(--color-blue-dark);
 }
 
 .projects-container {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .projects-list {
   margin-bottom: 40px;
-}
-
-.projects-title {
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #000;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .projects-item {
@@ -48,13 +20,9 @@
   font-weight: 500;
   font-size: 14px;
   text-align: center;
-  color: #fff;
+  color: var(--color-white);
   border-radius: 15px;
-  background: linear-gradient(
-    318deg,
-    rgba(0, 197, 235, 0.5) 0%,
-    rgba(181, 68, 254, 0.5) 100%
-  );
+  background: var(--cards);
 }
 
 .projects-item:not(:last-child) {
@@ -63,40 +31,25 @@
 
 .projects-img {
   margin-bottom: 15px;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .projects-item-title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 18px;
-  color: #fff;
+  color: var(--color-white);
   text-transform: uppercase;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .projects-item-text {
   margin-bottom: 18px;
   line-height: 1.43;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .projects-code-link {
@@ -110,16 +63,10 @@
   padding: 10px;
   border-radius: 5px;
   color: var(--color-white);
-  outline: none;
   background-color: #00c5eb;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
-
+  outline: none;
+  border: var(--border-style);
+  border-image: var(--border-image);
   transition: background-color var(--time) var(--cubic);
 }
 
@@ -128,32 +75,6 @@
 .projects-project-link:hover,
 .projects-project-link:focus {
   background-color: #b544fe;
-}
-
-.load-more {
-  font-family: inherit;
-  display: block;
-  margin: 0 auto;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  min-width: 200px;
-  height: 42px;
-  color: var(--color-white);
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
-  transition: color var(--time) var(--cubic);
-}
-
-.load-more:hover,
-.load-more:focus {
-  color: #000;
 }
 
 @media screen and (min-width: 768px) {

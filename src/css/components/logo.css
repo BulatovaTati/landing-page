@@ -1,16 +1,11 @@
 .logo {
   padding: 14px 0;
   font-size: 19px;
-  color: #fff;
+  color: var(--color-white);
   z-index: 10;
   text-wrap: nowrap;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 @media screen and (min-width: 1280px) {

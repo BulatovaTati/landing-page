@@ -2,7 +2,6 @@
 
 /* #region Utils styles */
 @import url('./utils/variables.css');
-@import url('./utils/animations.css');
 /* #endregion */
 
 /* #region Base styles */
@@ -14,9 +13,7 @@
 /* #region Components styles */
 @import url('./components/logo.css');
 @import url('./components/button.css');
-@import url('./components/modal.css');
 @import url('./components/menu.css');
-@import url('./components/swiper.css');
 @import url('./components/to-top.css');
 @import url('./components/socials.css');
 @import url('./components/skills.css');

@@ -24,5 +24,23 @@
     rgba(0, 197, 235, 0.3),
     rgba(181, 68, 254, 0.3)
   );
+  --current: linear-gradient(99deg, rgb(0, 197, 235), rgb(181, 68, 254));
+  --border-style: 1px solid transparent;
+  --border-image: linear-gradient(
+      99deg,
+      rgba(0, 197, 235, 0.3),
+      rgba(181, 68, 254, 0.3)
+    )
+    1;
+  --cards: linear-gradient(
+    318deg,
+    rgba(0, 197, 235, 0.5) 0%,
+    rgba(181, 68, 254, 0.5) 100%
+  );
+  --experience-items: linear-gradient(
+    99deg,
+    rgba(181, 68, 254, 0.2) 20%,
+    rgba(0, 197, 235, 0.2) 80%
+  );
   /* #endregion */
 }

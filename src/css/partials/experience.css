@@ -6,13 +6,8 @@
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .experience-container::after {
@@ -30,29 +25,6 @@
   background-size: 320px 916px;
 }
 
-.experience-title {
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #000;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .experience-position {
   max-width: 235px;
   margin-left: auto;
@@ -60,15 +32,9 @@
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 18px;
-  color: #000;
   text-align: center;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .experience-company,
@@ -81,14 +47,8 @@
   font-size: 14px;
   line-height: 1.71429;
   text-align: center;
-  color: #000;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .experience-list-item:not(:last-child) {
@@ -101,13 +61,8 @@
   font-size: 14px;
   line-height: 1.42857;
   text-align: center;
-  color: #000;
   border-radius: 8px;
-  background: linear-gradient(
-    99deg,
-    rgba(181, 68, 254, 0.2) 20%,
-    rgba(0, 197, 235, 0.2) 80%
-  );
+  background: var(--experience-items);
 }
 
 .experience-item:not(:last-child) {

@@ -9,18 +9,11 @@
 .header-container {
   padding: 0 20px;
   border-radius: 4px;
-  background: linear-gradient(
-    99deg,
-    rgba(0, 197, 235, 0.3) 0%,
-    rgba(181, 68, 254, 0.3) 100%
-  );
+  background: var(--gradient-color);
+
   border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .menu-container {
@@ -30,7 +23,7 @@
 }
 
 .current {
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background: var(--current);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,16 +45,11 @@
   font-weight: 500;
   font-size: 32px;
   text-align: center;
-  color: #fff;
+  color: var(--color-white);
   text-transform: uppercase;
   cursor: pointer;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 @media screen and (max-width: 1279px) {
@@ -86,7 +74,7 @@
     padding: 14px 0;
     font-weight: 400;
     font-size: 12px;
-    color: #fff;
+    color: var(--color-white);
   }
 
   .nav-item:not(:last-child) {

@@ -4,13 +4,8 @@
   align-items: center;
   gap: 16px;
   margin-bottom: 16px;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .socials-link {
@@ -19,22 +14,12 @@
   align-items: center;
   width: 40px;
   height: 40px;
-
-  background: linear-gradient(
-    99deg,
-    rgba(0, 197, 235, 0.3) 0%,
-    rgba(181, 68, 254, 0.3) 100%
-  );
-  color: white;
+  background: var(--gradient-color);
+  color: var(--color-white);
   border-radius: 50%;
   transition: background-color var(--time) var(--cubic);
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-      99deg,
-      rgba(0, 197, 235, 0.3),
-      rgba(181, 68, 254, 0.3)
-    )
-    1;
+  border: var(--border-style);
+  border-image: var(--border-image);
 }
 
 .socials-link:hover,
