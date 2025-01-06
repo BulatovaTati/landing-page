@@ -8,26 +8,26 @@
   padding-bottom: 10px;
   border: var(--border-style);
   border-image: var(--border-image);
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/about/mob/blur2.png'),
+      url('/img/about/mob/blur1.png');
+    background-position: left 0 top 0, left 0 bottom 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 320px 841px, 320px 1019px;
+  }
 }
 
 .about-img {
   width: 100%;
   max-width: 280px;
-}
-
-.about-container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-image: url('/img/about/mob/blur2.png'),
-    url('/img/about/mob/blur1.png');
-  background-position: left 0 top 0, left 0 bottom 0;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 320px 841px, 320px 1019px;
 }
 
 .about-text {

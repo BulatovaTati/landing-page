@@ -40,7 +40,6 @@
 .nav-link {
   position: relative;
   display: block;
-
   z-index: 5;
   font-weight: 500;
   font-size: 32px;

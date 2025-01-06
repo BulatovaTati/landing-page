@@ -42,10 +42,10 @@
 
 .education-text {
   font-weight: 700;
-}
 
-.education-text:not(:last-child) {
-  margin-bottom: 8px;
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
 
 .certifications-item {
@@ -75,10 +75,10 @@
   .certifications-item {
     width: calc((100% - 32px) / 2);
     padding: 15px;
-  }
 
-  .certifications-item:not(:last-child) {
-    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
   }
 }
 

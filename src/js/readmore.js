@@ -110,7 +110,7 @@ function setProjectsPerPage() {
   const projectItems = document.querySelectorAll('.projects-item');
 
   projectItems.forEach((project, index) => {
-    project.style.display = index < PROJECTS_PER_PAGE ? 'block' : 'none';
+    project.style.display = index < PROJECTS_PER_PAGE ? 'flex' : 'none';
   });
 
   loadMoreBtn.style.display =
@@ -124,7 +124,7 @@ function onLoadMore() {
   const endIndex = startIndex + PROJECTS_PER_PAGE;
 
   for (let i = startIndex; i < endIndex && i < projectItems.length; i++) {
-    projectItems[i].style.display = 'block';
+    projectItems[i].style.display = 'flex';
   }
 
   currentPage++;
@@ -172,6 +172,7 @@ function productMarkup(projects, startIndex, endIndex) {
         <p class="projects-item-text">
          ${description}
         </p>
+        <div class="btn-wrapper">
         <a
           href="${codeLink}"
           class="projects-code-link"
@@ -184,6 +185,7 @@ function productMarkup(projects, startIndex, endIndex) {
           target="_blank"
           >View Project</a
         >
+        </div>
       </li>`
         );
       },
