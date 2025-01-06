@@ -6,6 +6,10 @@
   text-wrap: nowrap;
   border: var(--border-style);
   border-image: var(--border-image);
+  background: var(--current);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 1280px) {
