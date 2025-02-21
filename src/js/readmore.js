@@ -7,8 +7,18 @@ import barber from '../img/projects/barber.jpg';
 import ice from '../img/projects/ice.jpg';
 import donuts from '../img/projects/donuts.jpg';
 import landing from '../img/projects/landing.jpg';
+import filmoteka from '../img/projects/filmoteka.jpg';
 
 const projects = [
+  {
+    title: 'Filmoteka',
+    image: filmoteka,
+    alt: 'Landing Page',
+    description:
+      'A user-friendly movie library where you can search for films, view details, and add favorites to your collection.',
+    codeLink: 'https://github.com/BulatovaTati/filmoteka',
+    projectLink: 'https://filmoteka-nine.vercel.app/',
+  },
   {
     title: 'Landing Page',
     image: landing,
@@ -18,15 +28,7 @@ const projects = [
     codeLink: 'https://github.com/BulatovaTati/landing-page-2.0',
     projectLink: 'https://bulatovatati.github.io/landing-page-2.0/',
   },
-  {
-    title: 'Movies Source',
-    image: movies,
-    alt: 'Movies Source',
-    description:
-      'A movie information platform that pulls data from a public API for movie details.',
-    codeLink: 'https://github.com/BulatovaTati/movies-source',
-    projectLink: 'https://bulatovatati.github.io/movies-source/',
-  },
+
   {
     title: 'Yacht Jet',
     image: yachts,
@@ -35,6 +37,15 @@ const projects = [
       'A luxury yacht rental platform showcasing various yachts available for rent.',
     codeLink: 'https://github.com/BulatovaTati/Yacht-Jet',
     projectLink: 'https://bulatovatati.github.io/Yacht-Jet/',
+  },
+  {
+    title: 'Movies Source',
+    image: movies,
+    alt: 'Movies Source',
+    description:
+      'A movie information platform that pulls data from a public API for movie details.',
+    codeLink: 'https://github.com/BulatovaTati/movies-source',
+    projectLink: 'https://bulatovatati.github.io/movies-source/',
   },
   {
     title: 'SIMPLY CHOCOLATE',
