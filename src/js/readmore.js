@@ -8,8 +8,18 @@ import ice from '../img/projects/ice.jpg';
 import donuts from '../img/projects/donuts.jpg';
 import landing from '../img/projects/landing.jpg';
 import filmoteka from '../img/projects/filmoteka.jpg';
+import backend from '../img/projects/backend.jpg';
 
 const projects = [
+  {
+    title: 'Contacts APP',
+    image: backend,
+    alt: 'Contacts APP',
+    description:
+      'A backend service for contact management, featuring authentication, authorization, and REST API endpoints.',
+    codeLink: 'https://github.com/BulatovaTati/nodejs-hw',
+    projectLink: 'https://nodejs-hw-nq50.onrender.com/api-docs/',
+  },
   {
     title: 'Filmoteka',
     image: filmoteka,
