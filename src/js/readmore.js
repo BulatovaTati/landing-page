@@ -9,12 +9,32 @@ import donuts from '../img/projects/donuts.jpg';
 import landing from '../img/projects/landing.jpg';
 import filmoteka from '../img/projects/filmoteka.jpg';
 import backend from '../img/projects/backend.jpg';
+import money from '../img/projects/money.jpg';
+import walletApi from '../img/projects/walletApi.png';
 
 const projects = [
   {
-    title: 'Contacts APP',
+    title: 'Money Guard',
+    image: money,
+    alt: 'Money Guard',
+    description:
+      'An intuitive and secure financial dashboard that helps users manage their income and expenses with ease. Track transactions, view real-time currency rates, and gain control of your finances – all in one place.',
+    codeLink: 'https://github.com/BulatovaTati/MoneyDashboard',
+    projectLink: 'https://money-dashboard-xi.vercel.app/',
+  },
+  {
+    title: 'WalletFlow API',
+    image: walletApi,
+    alt: 'WalletFlow API',
+    description:
+      'WalletFlow API is a secure RESTful service for personal finance management, built using OpenAPI 3.1. Supports user auth, transactions, categories, and summary stats.',
+    codeLink: 'https://github.com/BulatovaTati/MoneyDashboard_Back',
+    projectLink: 'https://moneydashboard-back.onrender.com/api-docs/',
+  },
+  {
+    title: 'Contacts API',
     image: backend,
-    alt: 'Contacts APP',
+    alt: 'Contacts API',
     description:
       'A backend service for contact management, featuring authentication, authorization, and REST API endpoints.',
     codeLink: 'https://github.com/BulatovaTati/nodejs-hw',

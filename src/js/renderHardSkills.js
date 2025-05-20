@@ -9,11 +9,6 @@ const skills = {
   ],
   'Frameworks & Libraries': [
     'Vite.js',
-    'Node.js',
-    'Express.js',
-    'MongoDB',
-    'Swagger',
-    'Mongoose',
     'Axios',
     'Izitoast',
     'Simplelightbox',
