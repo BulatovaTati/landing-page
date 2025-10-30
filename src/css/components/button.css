@@ -19,7 +19,8 @@
   }
 }
 
-.load-more {
+.load-more,
+.load-more-btn {
   font-family: inherit;
   display: block;
   margin: 0 auto;
@@ -38,6 +39,8 @@
 .hero-btn:hover,
 .hero-btn:focus,
 .load-more:hover,
-.load-more:focus {
+.load-more:focus,
+.load-more-btn:hover,
+.load-more-btn:focus {
   color: var(--color-black);
 }

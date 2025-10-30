@@ -11,8 +11,28 @@ import filmoteka from '../img/projects/filmoteka.jpg';
 import backend from '../img/projects/backend.jpg';
 import money from '../img/projects/money.jpg';
 import walletApi from '../img/projects/walletApi.png';
+import learnLingo from '../img/projects/learn-lingo.png';
+import readBooks from '../img/projects/read-books.png';
 
 const projects = [
+  {
+    title: 'Read Journey',
+    image: readBooks,
+    alt: 'Read Journey',
+    description:
+      'Read Journey is an app designed to help you manage your book library, track your reading progress, and discover recommended books. With both statistical and diary-like views, it provides a seamless reading experience, supporting you throughout your reading journey.',
+    codeLink: 'https://github.com/BulatovaTati/read-journey',
+    projectLink: 'https://read-journey-zeta.vercel.app/',
+  },
+  {
+    title: 'Learn Lingo',
+    image: learnLingo,
+    alt: 'Learn Lingo',
+    description:
+      'An interactive web application that connects students with professional language tutors from around the world.',
+    codeLink: 'https://github.com/BulatovaTati/LearnLingo',
+    projectLink: 'https://learn-lingo-fawn.vercel.app/',
+  },
   {
     title: 'Money Guard',
     image: money,

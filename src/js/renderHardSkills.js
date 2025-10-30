@@ -4,6 +4,7 @@ const skills = {
     'CSS',
     'JavaScript',
     'React.js',
+    'Redux',
     'TypeScript',
     'Figma',
   ],
@@ -19,7 +20,16 @@ const skills = {
     'Notiflix',
     'Tui-pagination',
   ],
-  Tools: ['Vercel', 'Render', 'Slack', 'Jira', 'Postman', 'Trello', 'Netlify'],
+  Tools: [
+    'Vercel',
+    'Render',
+    'Slack',
+    'Jira',
+    'Postman',
+    'Trello',
+    'Netlify',
+    'Vite.js',
+  ],
 };
 
 const listContainer = document.querySelector('.hard-list');

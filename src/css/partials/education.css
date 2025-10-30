@@ -48,6 +48,10 @@
   }
 }
 
+.certifications-list {
+  margin-bottom: 40px;
+}
+
 .certifications-item {
   padding: 16px;
   border-radius: 15px;
